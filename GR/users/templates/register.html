@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registration page</title>
+</head>
+<body>
+    <div class="content-section">
+      <form method="POST">
+        {% csrf_token %}
+        <fieldset class="form-group">
+          <legend class="borde-bottom mb-4">
+            Join today
+          </legend>
+          {{form}}
+        </fieldset>
+        <div class="from-group">
+          <button class="btn btn-outline-info" type="submit">
+            sign up
+          </button>
+        </div>
+      </form>
+      <div class="boreder-top pt-3">
+        <small class="text-muted">
+          already have an account<a class="ml-2" href="#">sign in</a>
+        </small>
+      </div>
+    </div>
+</body>
+</html>
