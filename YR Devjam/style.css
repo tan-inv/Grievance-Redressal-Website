@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+.head{
+    text-align: center; 
+    font-size:xx-large;
+    font-family: Algerian; 
+    word-spacing:15px ; 
+}
+.btn{
+    font-size:medium ;
+    padding: 10px 20px;
+    background-color:aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.lout{
+    font-family:Bradley Hand ITC;
+    float: left;
+    width:65%;
+}
+.photo{
+    float:right;
+}
+.cont{
+    background-color:yellow;
+    font-family:jokerman ;
+}
+.space{
+    font-size:x-large;
+    padding-top: 50px  ;
+
+}  
+.user{
+    border-style: solid;
+    border-radius:1cm  ;
+    border-spacing:5mm ;
+    background-color: yellow;
+    float:left; 
+}
+.admin{
+    border-style: solid;
+    border-radius:1cm  ;
+    border-spacing:5mm ;
+    background-color: aqua;
+    float: right;
+}
+.usr{
+    background-color: aqua;
+} 
