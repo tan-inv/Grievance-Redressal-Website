@@ -3,19 +3,12 @@
 }
 .head{
     text-align: center; 
-    font-size:xx-large;
-    font-family: Algerian; 
-    word-spacing:15px ; 
-}
-.btn{
-    font-size:medium ;
-    padding: 10px 20px;
-    background-color:#92d4d1;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 44;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing:11px ; 
 } 
 .lout{
-    font-family:Bradley Hand ITC;
-    float: left;
+    font-family:Bradley Hand ITC; 
     width:65%;
     background-color: #F5FFC9;
 }
@@ -24,7 +17,7 @@
 }
 .cont{
     background-color:#D27685;
-    font-family:jokerman ;
+    font-family:Script ;
 }
 .space{
     font-size:x-large;
@@ -33,7 +26,8 @@
 .usr{
     margin: 10px 30px;
     padding: 30px 70px;
-    background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-fresh-office-background-illustration-design-picture-image_955768.jpg');
+    background-image: url('https://png.pngtree.com/background/20210711/original/pngtree-small-fresh-minimalist-office-overlooking-stationery-background-poster-picture-image_1073334.jpg');
+
 }
 a:link{
     color: whitesmoke;
@@ -51,7 +45,7 @@ a:hover{
     font-size: large;
     background-color: 2C3333;
     border-radius: 0.7cm;
-    padding: 0.4px;
+    padding: 0.2px;
     word-spacing: 25px;
     color: antiquewhite;
 }
