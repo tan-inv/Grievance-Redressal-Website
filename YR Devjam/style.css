@@ -1,4 +1,4 @@
-h1{
+ h1{
     text-align: center;
 }
 .head{
@@ -10,40 +10,48 @@ h1{
 .btn{
     font-size:medium ;
     padding: 10px 20px;
-    background-color:aquamarine;
+    background-color:#92d4d1;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } 
 .lout{
     font-family:Bradley Hand ITC;
     float: left;
     width:65%;
+    background-color: #F5FFC9;
 }
 .photo{
     float:right;
 }
 .cont{
-    background-color:yellow;
+    background-color:#D27685;
     font-family:jokerman ;
 }
 .space{
     font-size:x-large;
     padding-top: 50px  ;
-
-}  
-.user{
-    border-style: solid;
-    border-radius:1cm  ;
-    border-spacing:5mm ;
-    background-color: yellow;
-    float:left; 
-}
-.admin{
-    border-style: solid;
-    border-radius:1cm  ;
-    border-spacing:5mm ;
-    background-color: aqua;
-    float: right;
 }
 .usr{
-    background-color: aqua;
-} 
+    margin: 10px 30px;
+    padding: 30px 70px;
+    background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-fresh-office-background-illustration-design-picture-image_955768.jpg');
+}
+a:link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:visited{
+    color: bisque;
+    text-decoration: underline;
+}
+a:hover{
+    color: rgb(160, 230, 54);
+    cursor: pointer;
+}
+.travel{
+    font-size: large;
+    background-color: 2C3333;
+    border-radius: 0.7cm;
+    padding: 0.4px;
+    word-spacing: 25px;
+    color: antiquewhite;
+}
