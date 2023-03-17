@@ -84,7 +84,7 @@ input[type="email"]:focus:invalid {
   color: #150a0a;
   border-color: #150a0a;
 }
-input[type="text"]:valid ~ .validation,
+/* input[type="text"]:valid ~ .validation,
 input[type="email"]:valid ~ .validation {
   display: block;
   border-color: #0C0;
@@ -112,7 +112,7 @@ input[type="email"]:valid ~ .validation span:last-child {
   height: 3px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-}
+} */
 
 .validation {
   display: none;
