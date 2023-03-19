@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Post
 posts = [
     {
         'user' : 'steve',
@@ -14,9 +15,21 @@ posts = [
 
 ]
 
+def admin(request):
+    return render(request, 'complaint/admin_login.html')
+
+def user(request):
+    return render(request, 'complaint/user_login.html')
+
+def form(request):
+    return render(request, 'complaint/contact form.htm')
+
+def userhm(request):
+    return render(request, 'complaint/userhmpg.html')
+
 def home(request): #for home page
     context = {
-        'posts':posts
+        'posts': posts
     }
     return render(request,'complaint/home.html',context)
 

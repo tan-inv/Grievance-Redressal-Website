@@ -1,0 +1,51 @@
+ h1{
+    text-align: center;
+}
+.head{
+    text-align: center; 
+    font-size: 44;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing:11px ; 
+} 
+.lout{
+    font-family:Bradley Hand ITC; 
+    width:65%;
+    background-color: #F5FFC9;
+}
+.photo{
+    float:right;
+}
+.cont{
+    background-color:#D27685;
+    font-family:Script ;
+}
+.space{
+    font-size:x-large;
+    padding-top: 50px  ;
+}
+.usr{
+    margin: 10px 30px;
+    padding: 30px 70px;
+    background-image: url('https://png.pngtree.com/background/20210711/original/pngtree-small-fresh-minimalist-office-overlooking-stationery-background-poster-picture-image_1073334.jpg');
+
+}
+a:link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:visited{
+    color: bisque;
+    text-decoration: underline;
+}
+a:hover{
+    color: rgb(160, 230, 54);
+    cursor: pointer;
+}
+.travel{
+    font-size: large;
+    background-color: 2C3333;
+    border-radius: 0.7cm;
+    padding: 0.2px;
+    word-spacing: 25px;
+    color: antiquewhite;
+}
