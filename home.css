@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0px;
+    background-size: 100%;
+    background-image: url('https://png.pngtree.com/background/20210711/original/pngtree-small-fresh-minimalist-office-overlooking-stationery-background-poster-picture-image_1073334.jpg');
+    border-radius: 5%;
+    font-weight: 500;
+    font-size: 28px;
+}
+a:link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:visited{
+    color: bisque;
+    text-decoration: underline;
+}
+a:hover{
+    color: rgb(160, 230, 54);
+    cursor: pointer;
+}
+.top{
+    font-size: large;
+    background-color: 2C3333;
+    border-radius: 1cm;
+    padding: 7px;
+    word-spacing: 25px;
+    text-align: left;
+    color: antiquewhite;
+}
+.foot{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: #1e1d1d;
+    color: antiquewhite;
+    width: 100%;
+ font-size: 22px;
+ padding: 10px 0px;
+}
+.lout{
+    margin: auto;
+    font-family:'Times New Roman', Times, serif; 
+    width: 55%;
+    background-color: #F5FFC9;
+}
+.cont{
+    background-color:#D27685;
+    font-family:Script ;
+} 
+.btn{
+    background-color:#3A98B9;
+    color: whitesmoke;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.space{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
